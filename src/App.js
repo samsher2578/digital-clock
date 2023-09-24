@@ -32,8 +32,10 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <h1> {time} </h1>
+    <div className="clock">
+      <div className="screen">
+        <h1 className="time">{time}</h1>
+      </div>
     </div>
   );
 }
